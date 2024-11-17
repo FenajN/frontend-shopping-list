@@ -1,0 +1,83 @@
+.shopping-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.item-content {
+    display: flex;
+    align-items: center;
+}
+
+.item-name {
+    flex: 1;
+    margin-left: 15px;
+    font-size: 16px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.item-buttons {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+}
+
+.item-buttons button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.item-buttons button:first-child {
+    margin-left: 0;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.item-input {
+    width: calc(100% - 30px);
+    padding: 8px 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.shopping-item.resolved .item-name {
+    text-decoration: line-through;
+    color: #999;
+}
+
+
+.save-button {
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.save-button:hover {
+    background-color: #0056b3;
+}
+
+
+.item-editing-content {
+    display: flex;
+    align-items: center;
+}
+
+.item-editing-content .item-input {
+    flex: 1;
+    margin-right: 380px;
+}
