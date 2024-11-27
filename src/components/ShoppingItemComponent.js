@@ -3,7 +3,7 @@ import './ShoppingItemComponent.css';
 import EditButton from './img/edit.png';
 import ResolvedButton from './img/ok.png';
 import DeleteButton from './img/delete.png';
-
+//import DeleteButton from '../../public/logo512.png';
 function ShoppingItemComponent({ itemId, itemName, resolved, onToggleComplete, onDelete, onEdit, role }) {
     const [isEditing, setIsEditing] = useState(false);
     const [currentName, setCurrentName] = useState(itemName);

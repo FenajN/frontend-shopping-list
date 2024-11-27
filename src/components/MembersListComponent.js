@@ -1,4 +1,4 @@
-/*import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import MemberComponent from './MemberComponent';
 import AddMemberButtonComponent from './AddMemberButtonComponent';
 
@@ -37,11 +37,11 @@ function MembersListComponent({ role }) {
 }
 
 export default MembersListComponent;
-*/
 
 
 
- //code if i will use the modal window
+
+/* //code if i will use the modal window
 import React, { useState, useCallback } from 'react';
 import MemberComponent from './MemberComponent';
 import AddMemberButtonComponent from './AddMemberButtonComponent';
@@ -96,3 +96,4 @@ function MembersListComponent({ role }) {
 }
 
 export default MembersListComponent;
+ */

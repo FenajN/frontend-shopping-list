@@ -1,4 +1,4 @@
-//im not sure if i need this, but if owner creates members then should be a list of members that owner can select
+/* //im not sure if i need this, but if owner creates members then should be a list of members that owner can select
 
 import React, { useState, useEffect } from 'react';
 import './MemberSelectionModal.css';
@@ -67,3 +67,4 @@ function MemberSelectionModal({ isOpen, onClose, onAddMembers }) {
 }
 
 export default MemberSelectionModal;
+*/
